@@ -10,7 +10,7 @@ type pose struct {
 var poses = []pose{
 	{"resting", "趴着", 0}, {"sitting", "坐着侧耳", 0}, {"watching", "抬头张望", 0},
 	{"grooming", "低头梳毛", 0}, {"belly", "躺着伸爪", 0}, {"tail", "背身摆尾", 0},
-	{"sleeping", "侧躺睡觉", 0}, {"walking", "一直慢慢走", 96},
+	{"sleeping", "侧躺睡觉", 0}, {"walking", "一直慢慢走", 72},
 	{"sprinting", "小小冲刺", 210}, {"spinning", "俯视转圈", 0}, {"scaling", "变大变小", 0},
 }
 

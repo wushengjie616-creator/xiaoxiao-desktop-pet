@@ -179,7 +179,7 @@ final class Pet: NSObject, NSApplicationDelegate {
     private let edgeRestDuration: TimeInterval = 2
     private lazy var edgeRestImage = MotionClip.firstFrame(for: .sitting)
     // Must match STRIDE in render_walk.py, in original pixels per APNG cycle.
-    private let walkStride: CGFloat = 96
+    private let walkStride: CGFloat = 72
     private let sprintStride: CGFloat = 210
     private var pose = Pose.resting
     private var automatic = true

@@ -25,14 +25,14 @@ func TestBundledAnimations(t *testing.T) {
 	}{
 		"belly":     {28, 3523, "c09f9275e423ba7b34e8c423195507b34245e15e9597c76a4d3d5c058c4826aa"},
 		"grooming":  {36, 2990, "bd2560af78186916e1cc2e83072572224fc511513aaf054c7321b43c1fae5f53"},
-		"resting":   {24, 4350, "b34291c60b1100e1b39ba30bc0af2c9e17666ffe727cf2498b1eae37787e7fbf"},
+		"resting":   {20, 4742, "9a638ac008a82e18b7be30c859e6faaafea4f4fdb36af74ac27121dfb7861976"},
 		"scaling":   {33, 2640, "1d46672ef7b47e2d05ad5ccf4c8c5dd11f86026bb3841acaf1b2440446669de7"},
-		"sitting":   {27, 3650, "0a2058fa7b90728cfa1c084a09fa56a2588b085aa9a4ec02290bb41fabc5e9bb"},
+		"sitting":   {40, 5232, "26f8eb10d9bda7a082db6def0a5b7d6978bf1569f26cf03a15a57abacabbb7e7"},
 		"sleeping":  {36, 3960, "5379ad424c1554b986fcfe6d7c940e74a8f6a91559a0bb5e0696ab0227be4f2a"},
 		"spinning":  {48, 2160, "7085781fa492f4b0adaf352d30009e26ee740a802826a304de7f7e6e60bd2a52"},
-		"sprinting": {24, 720, "e18f0b8b00025540127dc63174582d7dce75b2befd11bcc38b29c5a9a68bb820"},
+		"sprinting": {24, 720, "d3721dce0dad4f982f19863d8abb6d81728a2abf65b4aa28f65373c54c4b3eb8"},
 		"tail":      {36, 2448, "19c5c97f0c2a099de25a74cd56cdd9d07841c9b35b4770fcfb144aaf1b224668"},
-		"walking":   {72, 2880, "dddb6350dcddef5a14b0b9aedc7090d307da9c0a528e7730aadc2b414aa3382b"},
+		"walking":   {72, 2160, "87b2fbdb90e4d7dfa7c058ce00248d6f3ff27bd0c1baa62b11ff79a60a2ef95e"},
 		"watching":  {38, 3874, "e3fcebea5a032ea871720711eb05a41a538de12cdc89c1bc474fba839db5de39"},
 	}
 	if len(poses) != len(expected) {
